@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(213, 240, 240);
+}
+
+.navbar {
+    background-color: #FFC300;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.opt:hover {
+    background: #c99e11;
+    color: #fff !important;
+}
+
+.navbar label, .title {
+    font-weight: 700;
+}
+
+.title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.container {
+    text-align: center;
+}
+
+.profile-pic {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.fullname {
+    border: none;
+    font-weight: 700;
+    color: #333;
+    background: transparent;
+    padding-right: 13px;
+    cursor: pointer;
+}
+
+.fullname:hover {
+    color: #fff;
+}
+
+.topbar-divider {
+    width: 0;
+    border-right: 2px solid #2d5f74;
+    height: calc(4.375rem - 2rem);
+    margin: auto 1rem;
+}
+
+/* sort ddown*/
+.main-container {
+    margin-top: 3rem;
+}
+
+.tbl-list {
+    font-size: 2rem;
+    margin-bottom: 5rem;
+}
+
+.form-sort {
+    margin-top: 0em;
+    float: right;
+    margin-right: 2rem;
+}
+
+.form-inline .form-select {
+    display: inline-block;
+    width: auto;
+    vertical-align: middle;
+}
+
+.form-group {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.form-group input {
+    width: 8rem;
+}
+
+/* sort btns */
+.sort {
+    background: #2d5f74;
+    color: #fff;
+}
+
+.sort:hover {
+    background: #2d5f74;
+    color: #fff;
+}
+
+.reset {
+    color: #fff;
+    background: gray;
+}
+
+.reset:hover {
+    color: #fff;
+    background: gray;
+}
+
+.refresh {
+    float: right;
+    color: #2d5f74;
+    font-size: 2rem;
+}
+
+
+/* table */
+.no-req {
+    font-weight: 500;
+    text-align: center;
+    color:gray;
+    background: none;
+    font-size: large;
+ }
+
+.no-record {
+    font-weight: 500;
+    text-align: center;
+    color:gray;
+    background: none;
+    font-size: large;
+}
+
+thead {
+    background: #FFC300;
+    color: #333;
+}
+
+.table-striped {
+    background: #fff0b5;
+}
+
+.pic img{
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/* header */
+.doc-header img{
+    width: 800px;
+    display: none;
+}

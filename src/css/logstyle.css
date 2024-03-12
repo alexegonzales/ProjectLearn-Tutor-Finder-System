@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: rgb(155, 184, 184);
+}
+
+.container {
+    width: 750px;
+    height: 460px;
+}
+
+.card.login-card {
+    height: 100%;
+    border: 0;
+    border-radius: 30px;
+    box-shadow: 12px 12px 22px gray;
+    overflow: hidden; 
+}
+
+.brand-wrapper {
+    margin-bottom: 19px; 
+}
+
+.card-body {
+    padding: 0 2.5rem;
+}
+
+.login-card-img {
+    margin-top: 2.5rem;
+    position: absolute;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.login-card-img-admin {
+    margin-top: 7rem;
+    position: absolute;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .col-md-5 {
+        position: absolute;
+        width: 100%;
+        height: 100%; 
+    }
+
+   .login-email {
+        width: 100%;
+        padding: 1rem;
+        border-radius: 30px;
+        background: rgb(255 255 255 / 0.9);
+   }
+
+}
+
+.login-card form {
+    margin: auto;
+}
+
+  /*# sourceMappingURL=login.css.map */
+
+.row {
+    height: 100%;
+}
+
+.container .login-text {
+    color: #111;
+    font-weight: 500;
+    font-size: 1.1rem;
+    text-align: center;
+    margin-bottom: 20px;
+    display: block;
+    text-transform: capitalize;
+}
+
+.container .login-email .input-group {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 25px;   
+}
+
+.input-group-pass {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 25px;   
+}
+
+.input-group-pass input {
+    width: 90%;
+    height: 100%;
+    border: 2px solid #e7e7e7;
+    padding: 15px 20px;
+    font-size: 1rem;
+    border-radius: 30px;
+    background: transparent;
+    outline: none;
+    transition: .3s;
+}
+
+.container .login-email .input-group input {
+    width: 100%;
+    height: 100%;
+    border: 2px solid #e7e7e7;
+    padding: 15px 20px;
+    font-size: 1rem;
+    border-radius: 30px;
+    background: transparent;
+    outline: none;
+    transition: .3s;
+}
+
+.container .login-email .input-group input:focus, .container .login-email .input-group input:valid {
+    border-color: #FFC300;
+}
+
+.container .login-email .input-group .btn {
+    display: block;
+    width: 100%;
+    padding: 15px 20px;
+    text-align: center;
+    border: none;
+    background: #FFC300;
+    outline: none;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    color: #FFF;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.container .login-email .input-group .btn:hover {
+    transform: translateY(-5px);
+    background: #c99e11;
+}
+
+.login-register-text {
+    color: #111;
+    font-weight: 600;
+    text-align: center;
+}
+
+.login-register-text a {
+    text-decoration: none;
+    color: #c99e11;
+}
+
+.login-text{
+    padding-top: 2%;
+}
+
+.error-msg {
+    text-align: center;
+    color: red;
+}
+
+.btn-group {
+    height: 28px;
+    padding-left: 1.5rem;
+}
+
+.btn-back {
+    display: inline-flex;
+    border: none;
+    background: transparent;
+    padding: 0;
+    outline: none;
+    overflow: hidden;
+    font-size: 19px;
+    font-weight: 500;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.btn-icon, .btn-text {
+    display: inline-flex;
+    align-items: center;
+    height: 100%;
+}
+
+.btn-icon {
+    font-size: 1.25em;
+}
+
+.btn-back-a {
+    text-decoration: none;
+}
+
+.input-group-append {
+    border-style: none;
+    font-size: 1.30em;
+    background: #FFC300;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    cursor: pointer;
+}
+
+.input-group-text {
+    background: none;
+    border: none;
+}
+
+input#password, input#cpassword {
+    width: 90%;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.back {
+    font-size: 20px;
+
+}
+
+.back-lbl {
+    font-family:  Helvetica;
+    font-weight: normal;
+}

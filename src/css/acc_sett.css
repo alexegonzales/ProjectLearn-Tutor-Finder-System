@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: rgb(155, 184, 184);
+}
+
+.container {
+    margin-top: 20px;
+    max-width: 600px;
+}
+
+.tut {
+    margin-top: 20px;
+    max-width: 800px;
+}
+
+.back-icon{
+    color: #333;
+    font-size: 25px;
+}
+
+.back-icon:hover {
+    color: #333;
+    font-size: 25px;
+}
+
+.card.login-card {
+    height: 100%;
+   
+    border: 0;
+    border-radius: 3px;
+    box-shadow: 12px 12px 22px gray;
+    overflow: hidden; 
+}
+
+.acc_sett_text {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+  
+}
+
+.btn-back {
+    display: inline-flex;
+    border: none;
+    background: transparent;
+    padding: 0;
+    outline: none;
+    overflow: hidden;
+    font-size: 22px;
+    font-weight: 500;
+    margin-left: 1rem;
+}
+
+.btn-icon, .btn-text {
+    display: inline-flex;
+    align-items: center;
+    height: 100%;
+}
+
+.btn-icon {
+    font-size: 1.30em;
+}
+
+.btn-back-a {
+    text-decoration: none;
+}
+
+.lbl {
+    color: #c99e11;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.info {
+    font-weight: 420;
+    font-size: 22px;
+}
+
+.btn-modal {
+    border-style: none;
+    border-radius: 0.25rem;
+    background: #FFC300;
+    font-size: 1.1rem;
+    cursor: pointer;
+    padding: 6px 11px;
+}
+
+.btn-modal:hover {
+    background: #c99e11;
+    color: white;
+}
+
+.btn-modal-ud {
+    border-style: none;
+    border-radius: 0.25rem;
+    background: #FFC300;
+    font-size: 1.1rem;
+    cursor: pointer;
+    padding: 6px 11px;
+    margin-left: 2rem;
+}
+
+.btn-modal-ud:hover {
+    background: #c99e11;
+    color: white;
+}
+
+.btn-view {
+    text-align: right;
+}
+
+.pic-group {
+    margin-bottom: 25px;   
+}
+
+.input-group {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 25px;   
+}
+
+.input-group input {
+    width: 100%;
+    height: 100%;
+    border: 2px solid #e7e7e7;
+    padding: 15px 20px;
+    font-size: 1rem;
+    border-radius: 30px;
+    background: transparent;
+    outline: none;
+    transition: .3s;
+}
+
+.bio-box input {
+    width: 100%;
+    height: 100%;
+    border: 2px solid #FFC300;
+    padding: 10px 10px;
+    font-size: 1rem;
+    border-radius: 10px;
+    background: transparent;
+    outline: none;
+    transition: .3s;
+    margin-bottom: 15px;
+}
+
+img.card-img-top {
+    width: 20%;
+    height: auto;
+    border-radius: 100px;
+    position: relative;
+    top: 50px;
+    border: 3px solid white;
+}
+
+.card-header {
+    text-align:center; 
+    background: #FFC300;
+}   
+
+
+.modal-dialog {
+ width: 400px;
+}
+
+.modal-body {
+    padding: 1rem 2rem;
+}
+
+.modal-body-del {
+    padding: 1rem .7rem;
+    
+    
+}
+
+.modal-header {
+    background: #FFC300;
+}
+
+.modal-footer {
+    background: rgb(210, 239, 240)
+}
+
+.lbl-radio {
+    color: #c99e11;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.radio-group {
+    text-align: center;
+}
+
+.lbl-check {
+    color: #c99e11;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.input-group input:focus, .input-group input:valid {
+    border-color: #FFC300;
+}
+
+h6 {
+    color: red;
+}
+
+.error {
+    text-align: center;
+    color: red;
+    margin-top: 1rem;
+    font-weight: 500;
+}
+
+.msg {
+    text-align: center; 
+    margin-top: 1rem;
+    font-weight: 500;
+}
+
+
+.upload{
+    width: 125px;
+    position: relative;
+    margin: auto;
+  }
+
+.upload img{
+    border-radius: 50%;
+    border: 3px solid #c99e11;
+}  
+
+.upload .round{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: rgb(155, 184, 184);;
+    width: 32px;
+    height: 32px;
+    line-height: 33px;
+    text-align: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.upload .round input[type = "file"]{
+    position: absolute;
+    transform: scale(2);
+    opacity: 0;
+}
+  
+input[type=file]::-webkit-file-upload-button{
+      cursor: pointer;
+}
+
+.lbl-bio {
+    color: #c99e11;
+    font-weight: 400;
+    font-size: 17px;
+    margin-right: 12px;
+}

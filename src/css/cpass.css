@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: rgb(155, 184, 184);
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	flex-direction: column;
+}
+
+.container {
+    max-width: 500px;
+}
+
+.back-icon{
+    color: #333;
+    font-size: 25px;
+}
+
+.back-icon:hover {
+    color: #333;
+    font-size: 25px;
+}
+
+form {  
+    background: #fff;
+    padding: 30px 50px 30px 50px;
+    border-radius: 30px;
+    box-shadow: 12px 12px 22px gray;
+    overflow: hidden; 
+}
+
+.change_pass-text {
+	text-align: center;
+    font-size: 2rem;
+    font-weight: 800;
+	margin-bottom: 30px;
+}
+
+label {
+    font-weight: 600;
+	padding-top: 15px;
+}
+
+.form-control {
+    width: 100%;
+    height: 50px;
+    border: 2px solid #e7e7e7;
+    padding: 15px 20px;
+    font-size: 1rem;
+    border-radius: 30px;
+    background: transparent;
+    outline: none;
+    transition: .3s;
+}
+
+.form-control:focus, .form-control:valid {
+    border-color: #FFC300;
+}
+
+.input-group-append {
+    border-style: none;
+    font-size: 1.30em;
+    background: #FFC300;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    cursor: pointer;
+}
+
+.input-group-text {
+    background: none;
+    border: none;
+}
+
+.form-text {
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+button {
+	float: right;
+	background: #FFC300;
+	padding: 10px 15px;
+	border-radius: 5px;
+	margin-right: 10px;
+    margin-top: 15px;
+	border: none;
+}
+
+button:hover {
+    background: #c99e11;
+    color: #fff;
+}
+
+.error {
+   background: #F2DEDE;
+   color: #A94442;
+   padding: 10px;
+   width: 95%;
+   border-radius: 5px;
+   margin: 20px auto;
+}
+
+.success {
+   background: #D4EDDA;
+   color: #40754C;
+   padding: 10px;
+   width: 95%;
+   border-radius: 5px;
+   margin: 20px auto;
+}
+
+/*additional for admin acc sett*/

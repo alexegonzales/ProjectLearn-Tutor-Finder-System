@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(213, 240, 240);
+}
+
+.navbar {
+    background-color: #FFC300;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.sort-nav {
+    background: none;
+}
+
+.opt:hover {
+    background: #c99e11;
+    color: #fff !important;
+}
+
+.navbar-brand {
+    font-weight: 700;
+}
+
+.profile-pic {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.fullname {
+    border: none;
+    font-weight: 700;
+    color: #333;
+    background: transparent;
+    padding-right: 13px;
+    cursor: pointer;
+}
+
+.fullname:hover {
+    color: #fff;
+}
+
+.topbar-divider {
+    width: 0;
+    border-right: 2px solid #2d5f74;
+    height: calc(4.375rem - 2rem);
+    margin: auto 1rem;
+}
+
+.btn-back {
+    display: inline-flex;
+    border: none;
+    background: transparent;
+    padding: 0;
+    outline: none;
+    overflow: hidden;
+    font-size: 19px;
+    font-weight: 500;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.btn-back a {
+    text-decoration: none;
+}
+
+.back {
+    font-size: 24px;
+
+}
+
+.back-lbl {
+    font-family:  Helvetica;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.container {
+    margin-top: 5rem;
+}
+
+.tbl-req {
+    border-color: #2d5f74;
+}
+
+.tbl-list {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+table {
+    border-color: #2d5f74;
+}
+
+thead {
+    background: #FFC300;
+    color: #333;
+}
+
+.table-striped {
+    background: #fff0b5;
+}
+
+/*  */
+.edit {
+    color: #2d5f74;
+    font-size: 14px;
+    background: #fff;
+    border-color: #2d5f74;
+    width: 100%;
+}
+
+.edit:hover {
+    color: #fff;
+    background: #2d5f74;
+    border-color: #2d5f74;
+}
+
+.modal-header {
+    background: #2d5f74;
+    color: #fff;
+}
+
+.confirm {
+    background: #fff;
+    color: #2d5f74;
+    border-color: #2d5f74;
+    width: 30%;
+    font-weight: 500;
+    float: right;
+}
+
+.confirm:hover {
+    background: #2d5f74;
+    color: #fff;
+    
+}
+
+.msg {
+    text-align: center; 
+}
+
+.success {
+    background: #D4EDDA;
+    color: #40754C;
+    width: 100%;
+    font-size: 30px;
+    padding: 5px;
+ }

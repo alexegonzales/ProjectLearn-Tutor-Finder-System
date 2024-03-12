@@ -1,0 +1,14 @@
+@page
+{
+  size:A4;
+  margin-right: 3rem;
+}
+
+#print, #nav, #select{
+  display: none;
+  visibility: none;
+}
+
+#title {
+    margin-right:3rem;
+}
